@@ -8,7 +8,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: app-b.k8s.voile.moe
+    - host: app-c.k8s.voile.moe
       paths:
         - /
   tls: []
