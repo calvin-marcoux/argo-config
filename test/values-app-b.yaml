@@ -9,7 +9,8 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   hosts:
     - host: app-b.k8s.voile.moe
-      paths: []
+      paths:
+        - /
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
