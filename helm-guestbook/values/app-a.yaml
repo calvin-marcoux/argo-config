@@ -1,4 +1,7 @@
 ingress:
     enabled: true
+    annotations: {}
     hosts:
-        - app-a.k8s.voile.moe
+        - host: app-a.k8s.voile.moe
+          paths: []
+    tls: []
